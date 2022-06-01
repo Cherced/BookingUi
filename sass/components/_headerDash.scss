@@ -1,0 +1,51 @@
+.HeaderDashContainer {
+    grid-area: header;
+    grid-column: 1/6;
+    grid-row: 1;
+    width: 100vw;
+    height: 160px;
+    background-color: $color-secondary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #9B9B9B;
+
+    .BrandHeaderContainer {
+        margin-left: 60px;
+        filter: drop-shadow(0px 0px 5px $color-tertiary);
+    }
+
+    .ProfileInfoHeader {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        .ProfileInfoHeader-Image {
+            margin-right: 60px;
+            span {
+                filter: drop-shadow(0px 0px 5px $color-tertiary);
+                img {
+                    border-radius: 50%;
+                    background-color: $color-tertiary;
+                    margin-right: 10px;
+                    object-fit: none;
+                    
+                }
+            }
+        }
+
+        .ProfileInfoHeader-Name {
+            margin-right: 30px;
+            h1{
+                font-family: $fontTitle;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                color: #1572A1;
+            }
+            
+        }
+    }
+}

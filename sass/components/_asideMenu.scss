@@ -1,0 +1,31 @@
+.asideMenuContainer {
+    grid-area: aside;
+    grid-column: 1/6;
+    grid-row: 2/3;
+    width: 322px;
+    height: 100vh;
+    background: $color-secondary;
+    border-right: 1px solid #9B9B9B;
+
+    .itemOptionMenu-Container {
+        width: 100%;
+        height: 114px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        .itemOption-Image{
+            padding: 0px 10px;
+            margin-left: 60px;
+        }
+
+        .itemOption-Text {
+            font-family: $fontTitle;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 40px;
+            color: $color-tertiary;
+        }
+    }
+}

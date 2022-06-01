@@ -1,11 +1,14 @@
 import React from 'react'
+import {AsideMenu} from '../components/molecules/AsideMenu'
+import {HeaderDash} from '../components/molecules/HeaderDash'
 
-const Start = () => {
+const DashBoard = () => {
   return (
-    <div>
-        hello
+    <div className="dashBoardContainer">
+      <HeaderDash />
+      <AsideMenu />
     </div>
   )
 }
 
-export default Start
+export default DashBoard
