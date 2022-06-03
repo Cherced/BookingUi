@@ -1,0 +1,11 @@
+.mainDashContainer {
+    grid-area: body;
+    grid-column: ;
+    grid-row: 1;
+    width: 20px;
+    height: 20px;
+    background-color: $color-secondary;
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap;
+    }
