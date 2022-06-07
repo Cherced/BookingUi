@@ -1,0 +1,42 @@
+{
+  "name": "booking-ui",
+  "version": "1.0.0",
+  "description": "Administration Panel of booking app to the C[XIV",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cherced/BookingUi.git"
+  },
+  "keywords": [
+    "npm",
+    "react",
+    "js",
+    "css",
+    "sass"
+  ],
+  "author": "CHERCED",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cherced/BookingUi/issues"
+  },
+  "homepage": "https://github.com/Cherced/BookingUi#readme",
+  "devDependencies": {
+    
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.52.1"
+  },
+  "dependencies": {
+    "chart.js": "^3.8.0",
+    "eslint": "^8.16.0",
+    "eslint-config-next": "^12.1.6",
+    "react-chartjs-2": "^4.1.0"
+  }
+}

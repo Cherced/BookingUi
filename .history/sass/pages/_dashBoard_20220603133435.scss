@@ -1,0 +1,17 @@
+@import '../components/asideMenu';
+@import '../components/headerDash';
+@import '../components/headerDash';
+
+.dashBoardContainer{
+    height: 100vh;
+    display: grid;
+    grid-template-rows:repeat(3, 0.1fr);
+    grid-template-columns: repeat(6, 0.1fr);
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "aside main main";
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
