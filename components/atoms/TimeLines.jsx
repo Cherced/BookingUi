@@ -63,7 +63,7 @@ const options = {
 
 export const TimeLines = () => {
   return (
-    <div>
+    <div className="widthChart">
       <Line data={data} options={options} />
     </div>
   );
